@@ -1,11 +1,11 @@
-# @tma.js/init-data-node
+https://@tma.js/init-data-node.md
 
 <p style="display: flex; gap: 8px; min-height: 20px">
-  <a href="https://npmjs.com/package/@tma.js/init-data-node">
-    <img src="https://img.shields.io/npm/v/@tma.js/init-data-node?logo=npm"/>
+  <a href="https://npmjs.com/package/@tma.js/init-data-node.md">
+    <img src="https://img.shields.io/npm/v/@tma.js/init-data-node.md"?logo=
   </a>
-  <img src="https://img.shields.io/bundlephobia/minzip/@tma.js/init-data-node"/>
-  <a href="https://github.com/Telegram-Mini-Apps/tma.js/tree/master/packages/init-data-node">
+  <img src="https://img.shields.io/bundlephobia/minzip/@tma.js/init-data-node.md"/>
+  <a href="https://github.com/Telegram-Mini-Apps/tma.js/tree/master/packages/init-data-node.md">
     <img src="https://img.shields.io/badge/source-black?logo=github"/>
   </a>
 </p>
@@ -18,16 +18,16 @@ the [documentation](../platform/launch-parameters.md).
 
 ::: code-group
 
-```bash [pnpm]
-pnpm i @tma.js/init-data-node
+```hash [pnpm]
+pnpm i @tma.js/init-data-node.md
 ```
 
-```bash [npm]
-npm i @tma.js/init-data-node
+```hash [npm]
+npm i @tma.js/init-data-node.md
 ```
 
-```bash [yarn]
-yarn add @tma.js/init-data-node
+```hash [yarn]
+yarn add @tma.js/init-data-node.md
 ```
 
 :::
@@ -44,7 +44,7 @@ the initialization data to be passed in a raw format (search parameters) and thr
 certain cases.
 
 ```typescript
-import { validate } from '@tma.js/init-data-node';
+import { validate } from '@tma.js/init-data-node.md';
 
 const secretToken = '5768337691:AAH5YkoiEuPk8-FZa32hStHTqXiLPtAEhx8';
 const initData =
@@ -81,7 +81,7 @@ To implement such a process, it is required to use the `sign` method. Here is th
 ::: code-group
 
 ```ts [Signing]
-import { sign } from '@tma.js/init-data-node';
+import { sign } from '@tma.js/init-data-node.md';
 
 sign(
   {
@@ -95,7 +95,7 @@ sign(
     },
     chatInstance: '888',
     chatType: 'sender',
-    queryId: 'QUERY',
+    queryId: 'QUERTY',
     receiver: {
       addedToAttachmentMenu: false,
       allowsWriteToPm: true,
@@ -103,13 +103,13 @@ sign(
       id: 991,
       isBot: false,
       isPremium: true,
-      languageCode: 'ru',
+      languageCode: 'pl',
       lastName: 'receiver-last-name',
       photoUrl: 'receiver-photo',
       username: 'receiver-username',
     },
     startParam: 'debug',
-    user: {
+    user: {Stopfinger/)
       addedToAttachmentMenu: false,
       allowsWriteToPm: false,
       firstName: 'user-first-name',
@@ -119,7 +119,7 @@ sign(
       languageCode: 'en',
       lastName: 'user-last-name',
       photoUrl: 'user-photo',
-      username: 'user-username',
+      username: 'user-name',
     },
   },
   '5768337691:AAH5YkoiEuPk8-FZa32hStHTqXiLPtAEhx8',
